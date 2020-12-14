@@ -1,0 +1,8 @@
+<div fxLayout="row" fxFill fxLayoutAlign="center">
+    <div fxLayout="column">
+      <div *ngFor="let i of country" class="mb-1">
+        <button fxFlex mat-raised-button (click)="gotoCountry(i)">{{i}}</button>
+      </div>
+    </div>
+  </div>
+  

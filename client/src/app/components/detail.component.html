@@ -1,0 +1,8 @@
+<button [routerLink]="['/']">Back</button>
+<div fxLayout="column">
+    <div *ngFor="let i of results">
+        <p>{{i._id}}</p>
+        <p>{{i.title}}</p>
+        <p>{{i.price}}</p>
+    </div>
+</div>
